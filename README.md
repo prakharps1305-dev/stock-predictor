@@ -256,11 +256,11 @@ Fill this table after running the full workflow.
 
 Also include run context:
 
-- Date range:
-- Ticker universe:
-- Split date:
-- Transaction cost:
-- Number of test observations:
+- Date range: 2018-01-02 to 2023-12-28
+- Ticker universe: AAPL
+- Split date: 2022-11-02 (train) / 2022-11-03 (test)
+- Transaction cost: 0.1% per trade
+- Number of test observations: ~300 days
 
 ---
 
