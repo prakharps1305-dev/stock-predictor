@@ -247,12 +247,12 @@ Interpretation:
 
 Fill this table after running the full workflow.
 
-| Model | Sharpe | Max DD | CAGR | IC | Dir Acc |
-|---|---:|---:|---:|---:|---:|
-| Buy and Hold | 1.248 | -0.179 | 0.302 | N/A | 0.543 |
-| Linear Regression | -1.017 | -0.389 | -0.234 | -0.008 | 0.471 |
-| Random Forest | -0.685 | -0.298 | -0.172 | 0.015 | 0.474 |
-| MLP (PyTorch) | TODO | TODO | TODO | TODO | TODO |
+| Model | Sharpe | Max DD | CAGR | Win Rate | IC | Dir Acc |
+|---|---:|---:|---:|---:|---:|---:|
+| Buy & Hold | 1.248 | 0.179 | 0.302 | 0.543 | N/A | N/A |
+| Linear Regression | -1.026 | 0.414 | -0.236 | 0.465 | -0.008 | 0.471 |
+| Random Forest | -0.685 | 0.298 | -0.172 | 0.472 | 0.015 | 0.474 |
+| MLP (PyTorch) | TODO | TODO | TODO | TODO | TODO | TODO |
 
 Also include run context:
 
